@@ -14,4 +14,14 @@
 ##################################################
 0) pip install channels
 1) Initializing asgi.py with scope and events. Scopes hold events in them, they are open until the session is closed or timed-out. Events are things like eg. receive_message, send_message 
-2) 
+
+
+##################################################
+1) chat.html
+2) create the view for room_name
+3) In setup-urls.py, initialize the url
+
+
+##################################################
+WRITING CONSUMERS
+1) create a newfile ->consumers.py --> connect, disconnect, receive_message
